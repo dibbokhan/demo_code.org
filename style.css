@@ -490,18 +490,110 @@ img.tablet {
    } 
 }
 */
+/* 426 to 663 */
+@media screen and (min-width: 426px) and (max-width: 673px){
+    nav {
+        background-color: #0093a4;
+        height: 3rem;
+        width: 100%;
+    }
+    .nav-left a img {
+        height: 2rem;
+        width: 2rem;
+        margin-top: .5rem;
+    }
+    .nav-right {
+        display: flex;
+        justify-content: start;
+        margin-left: auto;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .nav-left ul {
+        display: none;
+    }
+    .bars {
+        display: block;
+    }
+    .bars i {
+        font-size: .5rem;
+    }
+    .nav-right button {
+        padding: 3px;
+        color: white;
+        cursor: pointer;
+        width: 4rem;
+        font-size: .8rem;
+    }
+    .nav-right a {
+        border: none;
+        border-radius: 3px;
+        margin: 0px .2rem;
+    }
+    .nav-right a {
+        border: 1px solid white;
+        border-radius: 3px;
+        margin: 0px.2rem;
+    }
+    .superhero-girl-text{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .superhero-girl-text h1 {
+        text-align: center;
+        font-size: 3rem;
+        padding: 2rem;
+        padding-bottom: .5rem;
+        text-align: center;
+        line-height: 1.16;
+
+    }
+    .superhero-girl-text h2 {
+        text-align: center;
+        font-size: 1.25rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .container {
+        display: block;
+    }
+    .superhero-girl-text a {
+        margin: 0;
+    }
+    .btn {
+        display: inline-block;
+    }
+   .superhero-girl-img img {
+    width: 80%;
+    display: block;
+    position: relative;
+    left: 4rem;
+    margin-top: 1rem;
+   }
+   img.tablet {
+    display: none;
+}
+}
 
 /* tablet screen */ 
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 674px) and (max-width: 768px){
     .superhero-girl {
         background-color: #ffdfa1;
         background-position: 50% 100%;
     }
+
     .superhero-girl-text {
         width: 50%;
         margin: 0px;
         padding: 0px;
     }
+    .nav-left ul {
+        display: none;
+    }    
     .superhero-girl-text h1 {
         color: #292F36;
         margin: 0 0 0.5em 0;
@@ -517,7 +609,7 @@ img.tablet {
         font-weight: 400;
         font-style: normal;
         margin-bottom: 1em;
-        font-size: 1.25rem;
+        font-size: .8rem;
         line-height: 1.4;
         margin: 1em 0;
         padding-left: 2rem;
@@ -536,7 +628,7 @@ img.tablet {
     .container {
         display: flex;
     }
-    .all {
+    img.all {
         display: none;
     
     }
@@ -554,19 +646,228 @@ img.tablet {
 }
 
 /* laptop screen */
-@media screen and (min-width: 789px) and (max-width: 1024px){
-    .superhero-girl-img img {
-        width: 60vw;
+
+
+@media screen and (min-width: 769px) and (max-width: 800px){
+    .superhero-girl {
+        background-color: #ffdfa1;
+        background-position: 50% 100%;
     }
+
+    .superhero-girl-text {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }  
     .superhero-girl-text h1 {
+        color: #292F36;
+        margin: 0 0 0.5em 0;
+        font-family: "Barlow Semi Condensed Semibold", sans-serif;
+        font-size: 2rem;
+        line-height: 1.16;
         padding-left: 2rem;
+        padding-top: 2rem;
     }
     .superhero-girl-text h2 {
+        color: #292F36;
+        font-family: "Metropolis", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 1em;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 1em 0;
         padding-left: 2rem;
     }
     .superhero-girl-text a {
+        text-decoration: none;
+        color: white;
+        font-family: "Metropolis", sans-serif;
+        font-weight: 200;
         margin-left: 2rem;
+        padding: 12px 20px;
+        background-color: #44769f;
+        border: #44769f;
+        border-radius: 5px;
     }
+    .container {
+        display: flex;
+    }
+    img.all {
+        display: none;
+    
+    }
+    img.tablet {
+        display: block;
+
+    }
+    .superhero-girl-img img {
+        width: 50vw;
+        position: relative;
+        bottom: 0;
+    }
+
+}
+@media screen and (min-width: 801px) and (max-width: 985px){
+
+.superhero-girl {
+    background-color: #ffdfa1;
+    background-position: 50% 100%;
+}
+.superhero-girl-text {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.superhero-girl-text h1 {
+    color: #292F36;
+    margin: 0 0 0.5em 0;
+    font-family: "Barlow Semi Condensed Semibold", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.16;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+.superhero-girl-text h2 {
+    color: #292F36;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1em;
+    font-size: .8rem;
+    line-height: 1.4;
+    margin: 1em 0;
+    padding-left: 5rem;
+}
+.superhero-girl-text a {
+    text-decoration: none;
+    color: white;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 400;
+    margin-left: 5rem;
+    padding: 12px 20px;
+    background-color: #44769f;
+    border: #44769f;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+}
+.superhero-girl img {
+    width: 50vw;
+
+}
+img.tablet {
+    display: none;
+}
+}
+@media screen and (min-width: 986px) and (max-width: 1024px){
+    .superhero-girl {
+        background-color: #ffdfa1;
+        background-position: 50% 100%;
+    }
+    .superhero-girl-text {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .superhero-girl-text h1 {
+        color: #292F36;
+        margin: 0 0 0.5em 0;
+        font-family: "Barlow Semi Condensed Semibold", sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.16;
+        padding-left: 8rem;
+        padding-top: 3rem;
+        text-align: left;
+    }
+    .superhero-girl-text h2 {
+        color: #292F36;
+        font-family: "Metropolis", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 1em;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 1em 0;
+        padding-left: 8rem;
+    }
+    .superhero-girl-text a {
+        text-decoration: none;
+        color: white;
+        font-family: "Metropolis", sans-serif;
+        font-weight: 400;
+        margin-left: 8rem;
+        padding: 12px 20px;
+        background-color: #44769f;
+        border: #44769f;
+        border-radius: 5px;
+    }
+    .container {
+        display: flex;
+    }
+    .superhero-girl img {
+        width: 50vw;
+    
+    }
+    img.tablet {
+        display: none;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1275px){
+    .superhero-girl {
+        background-color: #ffdfa1;
+        background-position: 50% 100%;
+    }
+    .superhero-girl-text {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .superhero-girl-text h1 {
+        color: #292F36;
+        margin: 0 0 0.5em 0;
+        font-family: "Barlow Semi Condensed Semibold", sans-serif;
+        font-size: 2rem;
+        line-height: 1.16;
+        padding-left: 8.5rem;
+        padding-top: 3.5rem;
+        text-align: left;
+    }
+    .superhero-girl-text h2 {
+        color: #292F36;
+        font-family: "Metropolis", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 1em;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 1em 0;
+        padding-left: 8.5rem;
+    }
+    .superhero-girl-text a {
+        text-decoration: none;
+        color: white;
+        font-family: "Metropolis", sans-serif;
+        font-weight: 400;
+        margin-left: 8.5rem;
+        padding: 12px 20px;
+        background-color: #44769f;
+        border: #44769f;
+        border-radius: 5px;
+    }
+    .container {
+        display: flex;
+    }
+    .superhero-girl img {
+        width: 50vw;
+    
+    }
+    img.tablet {
+        display: none;
+    }
+    
 }
 
 
