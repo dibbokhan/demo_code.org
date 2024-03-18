@@ -117,6 +117,223 @@ nav {
 img.tablet {
     display: none;
 }
+.every-student {
+    text-align: center;
+    margin: 1rem;
+    color: #292f36;
+    font-size: 1.2rem;
+}
+.statitics {
+    margin: 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 3rem;
+}
+.stats-num {
+    text-align: center;
+    color: #292f36;
+    font-size: 5vw;
+    font-weight: 600;
+}
+.stats-dis {
+    color: #292F36;
+    font-size: 1.2vw;
+}
+.statitics a {
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+.stats-num:hover {
+    color: #0093a4;
+}
+.servies {
+    margin: 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+}
+.ser-img {
+    height: 33vh;
+    width: 23vw;
+    background-image: url(hour-of-code.jpeg);
+    border-radius: 3px;
+}
+.ser-img_2 {
+    height: 33vh;
+    width: 23vw;
+    background-image: url(logo_tall_elementary.jpg);
+    border-radius: 3px;
+}
+.ser-img_3 {
+    height: 33vh;
+    width: 23vw;
+    background-image: url(logo_tall_teacher2.jpeg);
+    border-radius: 3px;
+}
+.ser-img_4 {
+    height: 33vh;
+    width: 23vw;
+    background-image: url(logo_tall_map.jpeg);
+    border-radius: 3px;
+}
+.servies a {
+    text-decoration: none;
+}
+.ser-txt {
+    text-align: center;
+    color: white;
+    background-color: #03a2b0f6;
+    font-size: 1vw;
+    padding: .8rem;
+    border-radius: 3px;
+    margin-top: -3vh;
+    text-decoration: none;
+}
+.text1 {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.text2 {
+    font-size: 1vw;
+    font-weight: 500;
+} 
+.text1:hover {
+    text-decoration: underline;
+}
+.ser-dis {
+    background-color: #59cad3;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-size: 1.15vw;
+    font-weight: 600;
+    color: white;
+    margin-top: -.2em;
+}
+.dis1:hover {
+    text-decoration: underline;
+}
+.dis2:hover {
+    text-decoration: underline;
+}
+.dis3:hover {
+    text-decoration: underline;
+}
+.beguni {
+    background-color: #6f6998fa;
+}
+.beguni2 {
+    background-color: #a69bc1;
+}
+.akasi {
+    background-color: #048cbdf6;
+}
+.akasi2 {
+    background-color: #59b9dc;
+}
+.holud {
+    background-color: #bdc225f6;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.project-count {
+    background-color: #ffa400;
+    text-align: center;
+    height: 3rem; 
+    display: flex;
+    justify-content: center; /* Horizontal center alignment */
+    align-items: center;
+}
+.project-count a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+.thanks {
+    text-align: center;
+    margin: 1rem;
+    color: #292f36;
+    font-size: 1.2rem;
+}
+.sponser {
+    text-align: center;
+    margin: 1rem;
+    color: #292f36;
+    font-size: .8rem;
+}
+.donate {
+    text-align: center;
+}
+.donate a{
+    background-color: #6f488e;
+    text-decoration: none;
+    color: white;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.more-supporters {
+    text-align: center;
+    margin-top: 1rem;
+}
+.more-supporters a {
+    color: #6f488e;
+    font-weight: 600;
+    text-decoration: underline ;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+}
+.footer-left {
+    
+}
+.fotter-links {
+    display: block;
+    margin: 0 12rem;
+    padding: 2rem;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: .9vw;
+    margin: 3px;
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-copyright {
+   
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+}
 
 /* nav bar responsive */
 
@@ -219,6 +436,160 @@ img.tablet {
     display: none;
 }
 
+.statitics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: .02rem .01rem;
+}
+.stats-num {
+    font-size: 5vw;
+}
+.stats-dis{
+    font-size: 1.3vw;
+}
+.servies {
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+}
+.ser-img {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(hour-of-code.jpeg);
+    border-radius: 3px;
+}
+.ser-img_2 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_elementary.jpg);
+    border-radius: 3px;
+}
+.ser-img_3 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_teacher2.jpeg);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+.ser-img_4 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_map.jpeg);
+    border-radius: 3px;
+}
+.servies a {
+    text-decoration: none;
+    margin-top: 5em;
+}
+.text1 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+.text2 {
+    font-size: 4vw;
+    font-weight: 500;
+} 
+.ser-dis {
+    background-color: #59cad3;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-size: 4.15vw;
+    font-weight: 600;
+    color: white;
+    margin-top: -.2em;
+}
+.beguni {
+    background-color: #6f6998fa;
+}
+.beguni2 {
+    background-color: #a69bc1;
+}
+.akasi {
+    background-color: #048cbdf6;
+}
+.akasi2 {
+    background-color: #59b9dc;
+}
+.holud {
+    background-color: #bdc225f6;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+.ser_img {
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+.project-count a {
+    font-size: 13px;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+}
+.fotter-links {
+    display: block;
+    margin: .3rem;
+    padding: .5rem;
+    text-align: center;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 3px;
+    
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-copyright {
+   
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+}
+.footer-copyrght {
+    display: block;
+}
+.linkss {
+    display: none;
+}
+.footer-right {
+    text-align: center;
+}
+
 }
 
 /* medium screen */
@@ -315,6 +686,166 @@ img.tablet {
 img.tablet {
     display: none;
 }
+.statitics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: .02rem .01rem;
+}
+.stats-num {
+    font-size: 5vw;
+}
+.stats-dis{
+    font-size: 1.3vw;
+}
+.servies {
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+}
+.ser-img {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(hour-of-code.jpeg);
+    border-radius: 3px;
+}
+.ser-img_2 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_elementary.jpg);
+    border-radius: 3px;
+}
+.ser-img_3 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_teacher2.jpeg);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+.ser-img_4 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_map.jpeg);
+    border-radius: 3px;
+}
+.servies a {
+    text-decoration: none;
+    margin-top: 5em;
+}
+.text1 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+.text2 {
+    font-size: 4vw;
+    font-weight: 500;
+} 
+.ser-dis {
+    background-color: #59cad3;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-size: 4.15vw;
+    font-weight: 600;
+    color: white;
+    margin-top: -.2em;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+.beguni {
+    background-color: #6f6998fa;
+}
+.beguni2 {
+    background-color: #a69bc1;
+}
+.akasi {
+    background-color: #048cbdf6;
+}
+.akasi2 {
+    background-color: #59b9dc;
+}
+.holud {
+    background-color: #bdc225f6;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+.ser_img {
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+.project-count a {
+    font-size: 4vw;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+}
+.fotter-links {
+    display: block;
+    margin: .3rem;
+    padding: .5rem;
+    text-align: center;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 3px;
+    
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-copyright {
+   
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+}
+.footer-copyrght {
+    display: block;
+}
+.linkss {
+    display: none;
+}
+.footer-right {
+    text-align: center;
+}
+
 }
 /* Large mobile screen */
 
@@ -404,6 +935,168 @@ img.tablet {
    img.tablet {
     display: none;
 }
+.statitics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: .02rem .01rem;
+}
+.stats-num {
+    font-size: 5vw;
+}
+.stats-dis{
+    font-size: 1.3vw;
+}
+.servies {
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+}
+.ser-img {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(hour-of-code.jpeg);
+    border-radius: 3px;
+}
+.ser-img_2 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_elementary.jpg);
+    border-radius: 3px;
+}
+.ser-img_3 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_teacher2.jpeg);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+.ser-img_4 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_map.jpeg);
+    border-radius: 3px;
+}
+.servies a {
+    text-decoration: none;
+    margin-top: 5em;
+}
+.text1 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+.text2 {
+    font-size: 4vw;
+    font-weight: 500;
+} 
+.ser-dis {
+    background-color: #59cad3;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-size: 4.15vw;
+    font-weight: 600;
+    color: white;
+    margin-top: -.2em;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.beguni {
+    background-color: #6f6998fa;
+}
+.beguni2 {
+    background-color: #a69bc1;
+}
+.akasi {
+    background-color: #048cbdf6;
+}
+.akasi2 {
+    background-color: #59b9dc;
+}
+.holud {
+    background-color: #bdc225f6;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+.ser_img {
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+.project-count a {
+    font-size: 3.4vw;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+}
+.fotter-links {
+    display: block;
+    margin: .3rem;
+    padding: .5rem;
+    text-align: center;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 3px;
+    
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-copyright {
+   
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+}
+.footer-copyrght {
+    display: block;
+}
+.linkss {
+    display: none;
+}
+.footer-right {
+    text-align: center;
+}
+
+
 }
 
 /* 426 to 550 */
@@ -491,7 +1184,7 @@ img.tablet {
 }
 */
 /* 426 to 663 */
-@media screen and (min-width: 426px) and (max-width: 673px){
+@media screen and (min-width: 426px) and (max-width: 511px){
     nav {
         background-color: #0093a4;
         height: 3rem;
@@ -577,7 +1270,420 @@ img.tablet {
    img.tablet {
     display: none;
 }
+.statitics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: .02rem .01rem;
 }
+.stats-num {
+    font-size: 5vw;
+}
+.stats-dis{
+    font-size: 1.3vw;
+}
+.servies {
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+}
+.ser-img {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(hour-of-code.jpeg);
+    border-radius: 3px;
+}
+.ser-img_2 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_elementary.jpg);
+    border-radius: 3px;
+}
+.ser-img_3 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_teacher2.jpeg);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+.ser-img_4 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_map.jpeg);
+    border-radius: 3px;
+}
+.servies a {
+    text-decoration: none;
+    margin-top: 5em;
+}
+.text1 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+.text2 {
+    font-size: 4vw;
+    font-weight: 500;
+} 
+.ser-dis {
+    background-color: #59cad3;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-size: 4.15vw;
+    font-weight: 600;
+    color: white;
+    margin-top: -.2em;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.beguni {
+    background-color: #6f6998fa;
+}
+.beguni2 {
+    background-color: #a69bc1;
+}
+.akasi {
+    background-color: #048cbdf6;
+}
+.akasi2 {
+    background-color: #59b9dc;
+}
+.holud {
+    background-color: #bdc225f6;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+.ser_img {
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 25rem;
+}
+.project-count a {
+    font-size: 3vw;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+}
+.fotter-links {
+    display: block;
+    margin: .3rem;
+    padding: .5rem;
+    text-align: center;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 3px;
+    
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-copyright {
+   
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+}
+.footer-copyrght {
+    display: block;
+}
+.linkss {
+    display: none;
+}
+.footer-right {
+    text-align: center;
+}
+
+
+
+}
+@media screen and (min-width: 512px) and (max-width: 673px){
+    nav {
+        background-color: #0093a4;
+        height: 3rem;
+        width: 100%;
+    }
+    .nav-left a img {
+        height: 2rem;
+        width: 2rem;
+        margin-top: .5rem;
+    }
+    .nav-right {
+        display: flex;
+        justify-content: start;
+        margin-left: auto;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .nav-left ul {
+        display: none;
+    }
+    .bars {
+        display: block;
+    }
+    .bars i {
+        font-size: .5rem;
+    }
+    .nav-right button {
+        padding: 3px;
+        color: white;
+        cursor: pointer;
+        width: 4rem;
+        font-size: .8rem;
+    }
+    .nav-right a {
+        border: none;
+        border-radius: 3px;
+        margin: 0px .2rem;
+    }
+    .nav-right a {
+        border: 1px solid white;
+        border-radius: 3px;
+        margin: 0px.2rem;
+    }
+    .superhero-girl-text{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .superhero-girl-text h1 {
+        text-align: center;
+        font-size: 3rem;
+        padding: 2rem;
+        padding-bottom: .5rem;
+        text-align: center;
+        line-height: 1.16;
+
+    }
+    .superhero-girl-text h2 {
+        text-align: center;
+        font-size: 1.25rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .container {
+        display: block;
+    }
+    .superhero-girl-text a {
+        margin: 0;
+    }
+    .btn {
+        display: inline-block;
+    }
+   .superhero-girl-img img {
+    width: 80%;
+    display: block;
+    position: relative;
+    left: 4rem;
+    margin-top: 1rem;
+   }
+   img.tablet {
+    display: none;
+}
+.statitics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: .02rem .01rem;
+}
+.stats-num {
+    font-size: 5vw;
+}
+.stats-dis{
+    font-size: 1.3vw;
+}
+.servies {
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+}
+.ser-img {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(hour-of-code.jpeg);
+    border-radius: 3px;
+}
+.ser-img_2 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_elementary.jpg);
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_teacher2.jpeg);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+.ser-img_4 {
+    height: 30vh;
+    width: 90vw;
+    background-image: url(logo_tall_map.jpeg);
+    border-radius: 3px;
+}
+.servies a {
+    text-decoration: none;
+    margin-top: 5em;
+}
+.text1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.text2 {
+    font-size: .8rem;
+    font-weight: 500;
+} 
+.ser-dis {
+    background-color: #59cad3;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-top: -.2em;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.beguni {
+    background-color: #6f6998fa;
+}
+.beguni2 {
+    background-color: #a69bc1;
+}
+.akasi {
+    background-color: #048cbdf6;
+}
+.akasi2 {
+    background-color: #59b9dc;
+}
+.holud {
+    background-color: #bdc225f6;
+}
+.holud2 {
+    background-color: #d1d567;
+}
+.servies a {
+    margin-bottom: 1rem;
+}
+.ser_img {
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 48vw;
+}
+.project-count a {
+    font-size: 3vw;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+}
+.fotter-links {
+    display: block;
+    margin: .3rem;
+    padding: .5rem;
+    text-align: center;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 3px;
+    
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-copyright {
+   
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+}
+.footer-copyrght {
+    display: block;
+}
+.linkss {
+    display: none;
+}
+.footer-right {
+    text-align: center;
+}
+
+}
+
+
+
 
 /* tablet screen */ 
 @media screen and (min-width: 674px) and (max-width: 768px){
@@ -641,7 +1747,99 @@ img.tablet {
         position: relative;
         bottom: 0;
     }
+    .statitics {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: .02rem .01rem;
+    }
+    .stats-num {
+        font-size: 5vw;
+    }
+    .stats-dis{
+        font-size:1.3vw;
+    }
+    .ser-img {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(hour-of-code.jpeg);
+        border-radius: 3px;
+    }
+    .ser-img_2 {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(logo_tall_elementary.jpg);
+        border-radius: 3px;
+    }
+    .ser-img_3 {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(logo_tall_teacher2.jpeg);
+        border-radius: 3px;
+    }
+    .ser-img_4 {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(logo_tall_map.jpeg);
+        border-radius: 3px;
+    }
+    .ser_img {
+        height: 20vh;
+        width: 22vw;
+    }
 
+    footer {
+        background-color: #292f36;
+        margin: 0;
+        padding: 0;
+        color: white;
+        display: block;
+    }
+    .fotter-links {
+        display: block;
+        margin: .3rem;
+        padding: .5rem;
+        text-align: center;
+    }
+    .fotter-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        margin: 3px;
+        
+    }
+    .policy {
+        color: #ffa41c;
+    }
+    #policy:hover {
+        text-decoration: underline #ffa41c;
+    }
+    .footer-text1 .footer-text2 {
+        font-size: .9rem;
+    }
+    .footer-right select {
+        margin-top: 2rem;
+        height: 1.4rem;
+        width: 7rem;
+    
+    }
+    .footer-right{
+        display: block;
+    }
+    .footer-icons a i {
+        color: white;
+    }
+    .footer-icons a {
+        padding: .6rem;
+    }
+    .footer-copyrght {
+        display: block;
+    }
+    .linkss {
+        display: none;
+    }
+    .footer-right {
+        text-align: center;
+    }
     
 }
 
@@ -706,7 +1904,102 @@ img.tablet {
         position: relative;
         bottom: 0;
     }
-
+    .statitics {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: .02rem .01rem;
+    }
+    .stats-num {
+        font-size: 5vw;
+    }
+    .stats-dis{
+        font-size: 1.3vw;
+    }
+    .ser-img {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(hour-of-code.jpeg);
+        border-radius: 3px;
+    }
+    .ser-img_2 {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(logo_tall_elementary.jpg);
+        border-radius: 3px;
+    }
+    .ser-img_3 {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(logo_tall_teacher2.jpeg);
+        border-radius: 3px;
+    }
+    .ser-img_4 {
+        height: 33vh;
+        width: 23vw;
+        background-image: url(logo_tall_map.jpeg);
+        border-radius: 3px;
+    }
+    .ser_img {
+        background-repeat: no-repeat;
+        height: 17vh;
+        width: 23vw;
+    }
+    footer {
+        background-color: #292f36;
+        margin: 0;
+        padding: 0;
+        color: white;
+        display: block;
+    }
+    .fotter-links {
+        display: block;
+        margin: .3rem;
+        padding: .5rem;
+        text-align: center;
+    }
+    .fotter-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        margin: 3px;
+        
+    }
+    .policy {
+        color: #ffa41c;
+    }
+    #policy:hover {
+        text-decoration: underline #ffa41c;
+    }
+  
+    .footer-text1 .footer-text2 {
+        font-size: .9rem;
+    }
+    .footer-right select {
+        margin-top: 2rem;
+        height: 1.4rem;
+        width: 7rem;
+    
+    }
+    .footer-right{
+        display: block;
+    }
+    .footer-icons a i {
+        color: white;
+    }
+    .footer-icons a {
+        padding: .6rem;
+    }
+    .footer-copyrght {
+        display: block;
+    }
+    /* .linkss {
+        display: none; 
+    }*/
+    .footer-right {
+        text-align: center;
+    }
+    
+    
 }
 @media screen and (min-width: 801px) and (max-width: 985px){
 
@@ -761,6 +2054,73 @@ img.tablet {
 img.tablet {
     display: none;
 }
+.statitics {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: .02rem .01rem;
+}
+.stats-num {
+    font-size: 5vw;
+}
+.stats-dis{
+    font-size: 1.3vw;
+}
+.ser_img {
+    background-repeat: no-repeat;
+    height: 23vh;
+    width: 23vw;
+}
+footer {
+    background-color: #292f36;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+}
+.fotter-links {
+    display: block;
+    margin: 0 3rem;
+    padding: 2rem;
+}
+.fotter-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6vw;
+    margin: 3px;
+    line-height: .8;
+}
+.footer-copyrght {
+    margin-top: 1rem;
+}
+.policy {
+    color: #ffa41c;
+}
+#policy:hover {
+    text-decoration: underline #ffa41c;
+}
+.footer-text1 .footer-text2 {
+    font-size: .9rem;
+}
+.footer-right select {
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 7rem;
+
+}
+.footer-right{
+    display: block;
+    margin-right: 1rem;
+    
+}
+.footer-icons a i {
+    color: white;
+}
+.footer-icons a {
+    padding: .6rem;
+    
+}
+
+
 }
 @media screen and (min-width: 986px) and (max-width: 1024px){
     .superhero-girl {
@@ -814,6 +2174,72 @@ img.tablet {
     img.tablet {
         display: none;
     }
+    .statitics {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: .02rem .01rem;
+    }
+    .stats-num {
+        font-size: 5vw;
+    }
+    .stats-dis{
+        font-size: 1.3vw;
+    }
+    .ser_img {
+        background-repeat: no-repeat;
+        height: 26vh;
+        width: 23vw;
+    }
+    footer {
+        background-color: #292f36;
+        margin: 0;
+        padding: 0;
+        color: white;
+        display: flex;
+    }
+    .fotter-links {
+        display: block;
+        margin: 0 3rem;
+        padding: 2rem;
+    }
+    .fotter-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.6vw;
+        margin: 3px;
+        line-height: .8;
+    }
+    .footer-copyrght {
+        margin-top: 1rem;
+    }
+    .policy {
+        color: #ffa41c;
+    }
+    #policy:hover {
+        text-decoration: underline #ffa41c;
+    }
+    .footer-text1 .footer-text2 {
+        font-size: .9rem;
+    }
+    .footer-right select {
+        margin-top: 2rem;
+        height: 1.4rem;
+        width: 7rem;
+    
+    }
+    .footer-right{
+        display: block;
+        margin-right: 1rem;
+        
+    }
+    .footer-icons a i {
+        color: white;
+    }
+    .footer-icons a {
+        padding: .6rem;
+    }
+    
+    
 }
 @media screen and (min-width: 1025px) and (max-width: 1275px){
     .superhero-girl {
@@ -867,8 +2293,28 @@ img.tablet {
     img.tablet {
         display: none;
     }
+     .statitics {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: .02rem .05rem;
+    }
+    .stats-num {
+        font-size: 5vw;
+    }
+    .stats-dis{
+        font-size: 1.3vw;
+    } 
+    .ser_img {
+        background-repeat: no-repeat;
+        height: 27vh;
+        width: 23vw;
+    }
+    
+
+    
     
 }
+
 
 
 /* @media screen and (min-width: 426px) and (max-width: 768px){
